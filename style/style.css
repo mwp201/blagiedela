@@ -136,6 +136,10 @@ body {
     /*30px*/
     background-color: #50b748;
     border-radius: 2px;
+    /*    box-shadow: 0 0 80px #fff;*/
+}
+
+.help:hover {
     box-shadow: 0 0 80px #fff;
 }
 
@@ -198,6 +202,93 @@ body {
     font-size: .7815em;
     text-decoration: none;
     color: #fff;
-    box-shadow: 0 0 80px #fff;
     background-color: #f48120;
+}
+
+.support-us:hover {
+    box-shadow: 0 0 80px #fff;
+}
+
+.comment {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    font-family: 'Droidserif-Italic';
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.comment-title {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    /*    font-family: 'Droidserif-Italic';*/
+    font-size: 2em;
+    /*32px*/
+    font-style: italic;
+}
+
+.comment-text {
+    display: inline-block;
+    width: 370px;
+    margin-bottom: 30px;
+    font-size: 1.25em;
+    line-height: 1.2;
+    /*20px*/
+    font-family: 'Droidserif-Italic';
+    font-style: italic;
+}
+
+.stub {
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #fff url(../img/stub.jpg) 47% 54% no-repeat;
+}
+
+.comment-subscribe {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 65px;
+    margin-left: 355px;
+    font-family: 'PT-Sans';
+    font-size: 1.25em;
+    /*20px*/
+    color: #67bb58;
+}
+
+.flow-money {
+    float: left;
+    width: 715px;
+    font-family: 'Droidserif-Italic';
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.item1,
+.item2,
+.item3 {
+    display: inline-block;
+    width: 220px;
+    padding-top: 150px;
+    vertical-align: top;
+    color: #593f1f;
+    text-decoration: none;
+    font-family: 'PT-Sans';
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.item1 {
+    background: url(../img/icon-heart.png) 50% 0 no-repeat;
+}
+
+.item2 {
+    background: url(../img/icon-note.png) 50% 0 no-repeat;
+}
+
+.item3 {
+    background: url(../img/icon-team.png) 50% 0 no-repeat;
 }
