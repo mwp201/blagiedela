@@ -213,7 +213,7 @@ body {
     float: left;
     width: 500px;
     margin-right: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding-left: 15px;
     font-family: 'Droidserif-Italic';
     background-color: rgba(255, 255, 255, .4);
@@ -269,26 +269,123 @@ body {
 
 .item1,
 .item2,
-.item3 {
-    display: inline-block;
-    width: 220px;
-    padding-top: 150px;
-    vertical-align: top;
+.item3,
+.item4,
+.item5,
+.item6 {
+    float: left;
+    width: 230px;
+    margin-bottom: 21px;
+    margin-right: 12px;
     color: #593f1f;
     text-decoration: none;
     font-family: 'PT-Sans';
     font-size: 1.5625em;
+    /*25px*/
     text-align: center;
 }
 
-.item1 {
+.heart,
+.note,
+.team {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
     background: url(../img/icon-heart.png) 50% 0 no-repeat;
 }
 
-.item2 {
+.note {
     background: url(../img/icon-note.png) 50% 0 no-repeat;
 }
 
-.item3 {
+.team {
     background: url(../img/icon-team.png) 50% 0 no-repeat;
+}
+
+.heart:hover,
+.note:hover,
+.team:hover,
+.volonter:hover,
+.shirt:hover,
+.rupor:hover {
+    box-shadow: 0 0 80px #fff;
+}
+
+.item3 {
+    margin-right: 0;
+}
+
+.flow-money .comment-title:first-child {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.promo-text {
+    display: block;
+    margin-bottom: 70px;
+    font-size: 2.5em;
+    /*40px*/
+    font-family: 'Droidserif-Italic';
+    font-style: italic;
+    text-align: center;
+}
+
+.item4,
+.item5,
+.item6 {
+    width: 400px;
+    margin-bottom: 60px;
+    /*    padding-top: 160px;*/
+}
+
+.volonter,
+.shirt,
+.rupor {
+    display: block;
+    width: 134px;
+    height: 134px;
+    margin: 0 auto 30px auto;
+    border-radius: 50%;
+}
+
+.volonter {
+    background: url(../img/icon-volonter.png) 50% 0 no-repeat;
+}
+
+.shirt {
+    background: url(../img/icon-shirt.png) 50% 0 no-repeat;
+}
+
+.rupor {
+    background: url(../img/icon-rupor.png) 50% 0 no-repeat;
+}
+
+.footer {
+    float: left;
+    margin-bottom: 80px;
+}
+
+.copyright {
+    position: relative;
+    float: left;
+    width: 475px;
+    margin-left: -20px;
+    color: #fff;
+}
+
+.copyright-text {
+    font-size: 1.25em;
+    /*20px*/
+}
+
+.copyright:after {
+    position: absolute;
+    top: 5px;
+    right: 55px;
+    width: 2px;
+    height: 47px;
+    content: '';
+    background-color: #fff;
 }
