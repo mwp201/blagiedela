@@ -434,37 +434,39 @@ body {
 .contact {
     float: left;
     width: 1261px;
-/*    margin-top: 50px;*/
+    /*    margin-top: 50px;*/
 }
 
 .contact-title {
     display: block;
     margin-bottom: 30px;
-    font-size: 3.125em;
-    /*50px*/
+    font-size: 1.5625em;
+    /*25px*/
     color: #492e0c;
     text-align: center;
 }
 
 .our-contact {
-    margin-bottom: 30px;
+    width: 960px;
+    margin: 0 auto 40px auto;
 }
 
 .our-contact span {
     display: inline-block;
-    margin: 25px 25px 0 25px;
+    /*    margin: 0 25px;*/
     vertical-align: top;
-    font-size: 1.5625em;
+    /*    font-size: 1.125em;*/
+    /*18px*/
 }
 
 .our-contact span:nth-child(2) {
     margin-right: 0;
-    margin-left: 220px;
+    margin-left: 61px;
 }
 
-.our-contact span:nth-child(4) {
+.our-contact span:nth-child(3) {
     margin-right: 0;
-    margin-left: 365px;
+    margin-left: 62px;
 }
 
 .our-contact span a {
@@ -478,11 +480,107 @@ body {
     text-decoration: underline;
 }
 
+.send-mail {
+    width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+.send-mail input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.send-mail input::-moz-placeholder {
+    color: #fff;
+}
+
+.send-mail input:-moz-placeholder {
+    color: #fff;
+}
+
+.send-mail input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.send-mail textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.send-mail textarea::-moz-placeholder {
+    color: #fff;
+}
+
+.send-mail textarea:-moz-placeholder {
+    color: #fff;
+}
+
+.send-mail textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+.field-wrapper {
+    float: left;
+    width: 460px;
+    margin-right: 30px;
+}
+
+.send-mail label {
+    display: block;
+    width: 380px;
+    margin-bottom: 9px;
+}
+
+.send-mail input[type=text] {
+    width: 448px;
+    margin-bottom: 20px;
+    padding: 8px 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #593f1f;
+    border-radius: 1px;
+    background-color: inherit;
+}
+
+.field-wrapper input[type=text]:last-child {
+    margin-bottom: 0;
+}
+
+.text-area-wrapper {
+    float: right;
+    width: 460px;
+}
+
+.send-mail textarea {
+    width: 448px;
+    height: 200px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid #593f1f;
+    border-radius: 1px;
+    background-color: inherit;
+    resize: none;
+}
+
+.send-mail input[type=submit] {
+    display: block;
+    width: 200px;
+    margin: 30px auto 60px auto;
+    padding: 3px;
+    font-size: 1.5625em;
+    /*25px*/
+    border: 1px solid #593f1f;
+    border-radius: 1px;
+    background-color: inherit;
+    outline: none;
+}
+
+.send-mail input[type=submit]:hover {
+    box-shadow: 0 0 60px #fff;
+}
+
 .map {
-    width: 1200px;
-    height: 600px;
-    margin-bottom: 50px;
-    margin-left: 25px;
+    width: 960px;
+    height: 400px;
+    margin: 0 auto 50px auto;
 }
 
 .our-team {
@@ -533,14 +631,74 @@ body {
     background: url(../img/photo2.jpg) 50% 0 no-repeat;
 }
 
-.contact .copyright-text {
+.contact .copyright-text,
+.accounting-row .copyright-text {
     display: block;
     margin-bottom: 30px;
     text-align: center;
     color: #fff;
 }
 
-.contact .social-btn {
+.contact .social-btn,
+.accounting-row .social-btn {
     float: none;
     margin: 0 auto 30px auto;
 }
+
+
+/*-----  details-accounting.html -------*/
+
+.accounting-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.accounting-title {
+    margin-top: 200px;
+    font-family: 'Droidserif-Italic';
+    font-size: 2.1875em;
+    /*35px*/
+    font-style: italic;
+}
+
+.accounting-row {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.accounting-row p {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Droidserif-Italic';
+    font-size: 1.25em;
+    /*35px*/
+    font-style: italic;
+}
+
+.accounting-left-column {
+    float: left;
+    width: 400px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.accounting-right-column {
+    float: left;
+    width: 600px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 2;
+}
+
+.column-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.5625em;
+    /*25px*/
+    color: #492e0c;
+    text-align: center;
+}
+
+.
+/*------------------*/
