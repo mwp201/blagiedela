@@ -6,6 +6,8 @@
     <title>Благие дела</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.maskedinput-1.2.2.js"></script>
 </head>
 
 <body>
@@ -13,7 +15,7 @@
         <div class="top-left-column">
             <h1 class="index-title">Благотворительный фонд "Благие дела"</h1>
             <ul class="index-menu">
-                <li><a href="#">О нас</a></li>
+                <li><a href="about.html">О нас</a></li>
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Пресса<br> о нас</a></li>
                 <li><a href="#">Проекты<br>и акции</a></li>
@@ -39,15 +41,15 @@
                 <div class="clearfix">
                     <div class="field-wrapper">
                         <label for="user_name">Ваше имя</label>
-                        <input type="text" id="user_name" name="user_name" placeholder="Представьтесь, пожалуйста!">
+                        <input type="text" id="user_name" name="user_name" placeholder="Представьтесь, пожалуйста!" required>
                         <label for="user_email">Ваша почта</label>
-                        <input type="text" id="user_email" name="user_email" placeholder="Для отправки ответа">
+                        <input type="text" id="user_email" name="user_email" placeholder="Для отправки ответа" required>
                         <label for="user_phone">Ваш телефон</label>
                         <input type="text" id="user_phone" name="user_phone" placeholder="Для связи с Вами">
                     </div>
                     <div class="text-area-wrapper">
                         <label for="user_message">Ваше сообщение</label>
-                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="В произвольной форме"></textarea>
+                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="В произвольной форме" required></textarea>
                     </div>
                 </div>
                 <input type="submit" name="submit" value="Отправить">
@@ -115,6 +117,13 @@
 
     </div>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=U-TmAbr-ENmAFPjnzXXH_HUjX2nr12wZ&amp;width=960&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false;id=yandex-map">
+    </script>
+    <script>
+        //маска для телефона
+        jQuery(function ($) {
+            $.mask.definitions['~'] = '[+-]';
+            $('#user_phone').mask('+7 (999) 999-99-99');
+        });
     </script>
 </body>
 

@@ -587,22 +587,22 @@ body {
     display: inline-block;
     width: 380px;
     margin-right: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     vertical-align: top;
 }
 
-.our-team:nth-child(5) {
+.our-team:nth-child(2) {
     margin-left: 25px;
 }
 
-.our-team:last-child {
+.our-team:nth-child(4) {
     margin-right: 0;
 }
 
 .our-team span {
     display: block;
-    margin-bottom: 20px;
-    font-size: 1.25em;
+    margin-bottom: 5px;
+    /*    font-size: 1.25em;*/
     text-align: center;
 }
 
@@ -620,9 +620,9 @@ body {
 .photo1,
 .photo2,
 .photo3 {
-    width: 380px;
-    height: 380px;
-    margin-bottom: 25px;
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
     border-radius: 50%;
     background-color: #ccc;
 }
@@ -700,5 +700,21 @@ body {
     text-align: center;
 }
 
-.
+
 /*------------------*/
+
+
+/*--- about.html ---*/
+
+.about-title {
+    text-align: center;
+}
+
+.about-slogan {
+    margin-top: 20px;
+    font-family: 'Droidserif-Italic';
+    font-size: 1.875em;
+    /*30px*/
+    font-style: italic;
+    text-align: center;
+}
