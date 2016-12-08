@@ -46,6 +46,10 @@ body {
     clear: both;
 }
 
+p {
+    text-align: justify;
+}
+
 .top-left-column {
     float: left;
     width: 880px;
@@ -61,14 +65,16 @@ body {
     /*25px*/
 }
 
-.index-menu {
+.index-menu,
+.document-submenu {
     margin: 0;
     padding: 0;
     list-style: none;
     font-size: 0;
 }
 
-.index-menu li {
+.index-menu li,
+.document-submenu li {
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
@@ -85,6 +91,10 @@ body {
 
 .index-menu li:first-child a {
     padding-left: 15px;
+}
+
+.index-menu li:nth-child(6) {
+    /*    padding-bottom: 50px;*/
 }
 
 .index-menu li:last-child a {
@@ -112,7 +122,25 @@ body {
     display: none;
 }
 
-.index-menu li a:hover {
+.document-submenu {
+    position: relative;
+    display: none;
+}
+
+.document-submenu li a {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 20px 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.index-menu li a:hover,
+.document-submenu li a:hover {
     color: #593f1f;
 }
 
@@ -627,8 +655,16 @@ body {
     background-color: #ccc;
 }
 
+.photo1 {
+    background: url(../img/alija.jpg) 50% 0 no-repeat;
+}
+
 .photo2 {
-    background: url(../img/photo2.jpg) 50% 0 no-repeat;
+    background: url(../img/evita.jpg) 50% 0 no-repeat;
+}
+
+.photo3 {
+    background: url(../img/nailja.jpg) 50% 0 no-repeat;
 }
 
 .contact .copyright-text,
@@ -717,4 +753,59 @@ body {
     /*30px*/
     font-style: italic;
     text-align: center;
+}
+
+
+/*------------------*/
+
+
+/*--- actions.html ---*/
+
+.actions-item {
+    margin-bottom: 50px;
+}
+
+.actions-item-title {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.25em;
+    /*20px*/
+    color: #492e0c;
+    text-align: left;
+}
+
+.actions-item img {
+    float: left;
+    width: 100px;
+    margin-right: 50px;
+}
+
+.actions-item p {
+    float: left;
+    width: 1040px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.action-item-more {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Droidserif-Italic';
+    font-size: .875;
+    /*14px*/
+    font-style: italic;
+    color: #492e0c;
+}
+
+.action-item-more:hover {
+    color: #fff;
+}
+
+.action-item-divider {
+    float: left;
+    width: 1000px;
+    height: 60px;
+    margin-left: 96px;
+    background: url(../img/actions-divider.png) 0 0 no-repeat;
 }
