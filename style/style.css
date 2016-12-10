@@ -645,6 +645,18 @@ p {
     text-decoration: underline;
 }
 
+.photo {
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+}
+
+.our-team img {
+    border-radius: 50%;
+}
+
+
+/*
 .photo1,
 .photo2,
 .photo3 {
@@ -666,6 +678,7 @@ p {
 .photo3 {
     background: url(../img/nailja.jpg) 50% 0 no-repeat;
 }
+*/
 
 .contact .copyright-text,
 .accounting-row .copyright-text {
@@ -762,16 +775,22 @@ p {
 /*--- actions.html ---*/
 
 .actions-item {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .actions-item-title {
     display: block;
-    margin-bottom: 30px;
+    margin: 20px 0;
     font-size: 1.25em;
     /*20px*/
     color: #492e0c;
     text-align: left;
+}
+
+.big-title {
+    margin-bottom: 10px;
+    font-size: 1.5625em;
+    /*25px*/
 }
 
 .actions-item img {
@@ -783,8 +802,8 @@ p {
 .actions-item p {
     float: left;
     width: 1040px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 45px;
     text-align: justify;
 }
 
@@ -806,6 +825,70 @@ p {
     float: left;
     width: 1000px;
     height: 60px;
-    margin-left: 96px;
+    margin-left: 160px;
     background: url(../img/actions-divider.png) 0 0 no-repeat;
+}
+
+
+/*------------------*/
+
+
+/*--- action-newyear.html ---*/
+
+.action-newyear-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #9f4d99;
+    text-align: center;
+}
+
+.action-newyear-top {
+    margin: 35px 0;
+}
+
+.action-newyear-top img {
+    float: left;
+}
+
+.action-newyear-top img:last-child {
+    float: right;
+    margin-top: -280px;
+}
+
+.action-newyear-top p,
+.action-newyear-bottom p {
+    margin: 10px 260px;
+    font-size: 1.375em;
+    /*22px*/
+    text-align: center;
+}
+
+.action-newyear-bottom p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.action-newyear-bottom ul {
+    font-size: 1.375em;
+    /*22px*/
+}
+
+.action-newyear-bottom p:nth-child(10) {
+    text-align: justify;
+}
+
+.furshet-title {
+    width: 1260px;
+    height: 177px;
+    margin-bottom: 50px;
+    background: #ccc url(../img/furshet-title.jpg) 0 0 no-repeat;
+}
+
+.logo-partners {
+    width: 1260px;
+    height: 350px;
+    margin-bottom: 50px;
+    background: #ccc url(../img/logo-partners.jpg) 0 0 no-repeat;
 }
