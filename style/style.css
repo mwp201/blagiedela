@@ -74,8 +74,8 @@ p {
     font-size: 0;
 }
 
-.index-menu li,
-.document-submenu li {
+.index-menu li {
+    position: relative;
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
@@ -114,7 +114,6 @@ p {
 
 .index-menu li:nth-child(1) a:after,
 .index-menu li:nth-child(2) a:after,
-.index-menu li:nth-child(6) a:after,
 .index-menu li:nth-child(7) a:after {
     top: -2px;
 }
@@ -129,9 +128,52 @@ p {
 }
 
 .document-submenu {
-    position: relative;
+    position: absolute;
+    top: 35px;
+    left: 5px;
     display: none;
 }
+
+.document-submenu li {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.document-submenu li a {
+    width: 250px;
+    padding: 5px 0 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.document-submenu li a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    background-color: inherit;
+}
+
+.index-menu li a:hover,
+.document-submenu li a:hover {
+    color: #593f1f;
+}
+
+
+/*
+.submenu-level-two li a {
+    width: 250px;
+    padding: 0;
+    padding: 5px 0 15px 15px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1000;
+}*/
 
 .breadscrumbs li {
     display: inline-block;
@@ -148,23 +190,6 @@ p {
 
 .breadscrumbs li a:hover {
     text-decoration: underline;
-}
-
-.document-submenu li a {
-    position: absolute;
-    top: 0px;
-    left: 8px;
-    display: inline-block;
-    vertical-align: middle;
-    padding: 5px 20px 15px 20px;
-    color: #fff;
-    text-decoration: none;
-    z-index: 1000;
-}
-
-.index-menu li a:hover,
-.document-submenu li a:hover {
-    color: #593f1f;
 }
 
 .slogan {
@@ -475,7 +500,7 @@ p {
 .top-right-link {
     float: right;
     width: 400px;
-    height: 200px;
+    height: 250px;
 }
 
 .contact {
@@ -697,7 +722,8 @@ p {
 }
 
 .accounting-title {
-    margin-top: 200px;
+    width: 1260px;
+    margin-top: 240px;
     font-family: 'Droidserif-Italic';
     font-size: 2.1875em;
     /*35px*/
@@ -933,16 +959,6 @@ p {
     text-align: justify;
 }
 
-
-/*
-.history-item-img-left a {
-    color: #492e0c;
-    text-decoration: none;
-}
-
-.history-item-img-left a:hover {}
-*/
-
 .history-item-img-both img {
     float: left;
     width: 300px;
@@ -968,4 +984,39 @@ p {
     /*25px*/
     color: #492e0c;
     text-align: center;
+}
+
+
+/*------------------*/
+
+
+/*--- doc-list.html ---*/
+
+.doc-menu {
+    margin: 0 0 70px 262px;
+    padding: 0;
+    list-style: none;
+}
+
+.doc-menu li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 128px;
+    height: 128px;
+    margin-right: 30px;
+}
+
+.doc-menu li a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 128px;
+    padding-top: 130px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background: url(../img/bg-doc-menu.png) 0 0 no-repeat;
+}
+
+.doc-menu li a:hover {
+    color: #593f1f;
 }
