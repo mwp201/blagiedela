@@ -298,8 +298,7 @@ p {
 .comment-title {
     display: block;
     margin-top: 15px;
-    margin-bottom: 20px;
-    /*    font-family: 'Droidserif-Italic';*/
+    margin-bottom: 13px;
     font-size: 2em;
     /*32px*/
     font-style: italic;
@@ -307,11 +306,12 @@ p {
 
 .comment-text {
     display: inline-block;
-    width: 370px;
-    margin-bottom: 30px;
+    width: 475px;
+    margin-top: 15px;
+    margin-bottom: 0;
     font-size: 1.25em;
-    line-height: 1.2;
-    /*20px*/
+    line-height: 1.125;
+    /*18px*/
     font-family: 'Droidserif-Italic';
     font-style: italic;
 }
@@ -325,15 +325,21 @@ p {
     background: #fff url(../img/stub.jpg) 47% 54% no-repeat;
 }
 
-.comment-subscribe {
+.comment-link {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 65px;
+    margin-top: 20px;
+    margin-bottom: 25px;
     margin-left: 355px;
-    font-family: 'PT-Sans';
+    font-family: 'Droidserif-Italic';
+    font-style: italic;
     font-size: 1.25em;
     /*20px*/
-    color: #67bb58;
+    color: #593f1f;
+}
+
+.comment-link:hover {
+    color: #fff;
 }
 
 .flow-money {
@@ -1019,4 +1025,63 @@ p {
 
 .doc-menu li a:hover {
     color: #593f1f;
+}
+
+
+/*------------------*/
+
+
+/*--- sms.html ---*/
+
+hr {
+    margin: 50px auto;
+}
+
+.mobile-phone-operator-oferta {
+    width: 900px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.sms-support {
+    color: #593f1f;
+    text-decoration: none;
+}
+
+.sms-support:hover {
+    text-decoration: underline;
+}
+
+.mobile-phone-operator-oferta li {
+    display: inline-block;
+    margin-right: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.mobile-phone-operator-oferta li:last-child {
+    margin-right: 0;
+}
+
+.mobile-phone-operator-oferta li a {
+    display: inline-block;
+    width: 190px;
+    height: 190px;
+    vertical-align: middle;
+    font-size: 16px;
+    background: url(../img/logo-megafon.png) 0 0 no-repeat;
+}
+
+.mobile-phone-operator-oferta li:nth-child(2) a {
+    background: url(../img/logo-mts.jpg) 50% 50% no-repeat;
+}
+
+.mobile-phone-operator-oferta li:nth-child(3) a {
+    background: url(../img/logo-beeline.png) 0 0 no-repeat;
+}
+
+.mobile-phone-operator-oferta li:last-child a {
+    background: url(../img/logo-tele2.png) 50% 50% no-repeat;
 }

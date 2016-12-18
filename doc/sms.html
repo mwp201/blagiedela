@@ -3,100 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Сайт благотворительного фонда Благие дела">
-    <meta name="keywords" content="благотворительный фонд казань, благие дела, оказать помощь, благотворительность">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Благие дела благотворительный фонд</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style.css">
+    <title>Благие дела прием помощи по смс</title>
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
-    <div class="container clearfix">
+    <div class="container-inner clearfix">
         <div class="top-left-column">
             <h1 class="index-title">Благотворительный фонд <q>Благие дела</q></h1>
             <ul class="index-menu">
-                <li><a href="about.html">О нас</a></li>
+                <li><a href="../about.html">О нас</a></li>
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Пресса<br> о нас</a></li>
-                <li><a href="actions.html">Проекты<br>и акции</a></li>
+                <li><a href="../actions.html">Проекты<br>и акции</a></li>
                 <li><a href="#">Наши<br>друзья</a></li>
-                <li><a href="our-history.html">Истории<br>&nbsp;людей</a></li>
-                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="../our-history.html">Истории<br>&nbsp;людей</a></li>
+                <li><a href="../contact.html">Контакты</a></li>
                 <li onmouseover="showElem('document-submenu')" onmouseout="hiddenElem('document-submenu')"><a href="#">Документы</a>
                     <ul class="document-submenu" id="document-submenu">
-                        <li><a href="doc/details-accounting.html">Реквизиты</a></li>
-                        <li><a href="doc/oferta.docx" target="_blank">Договор оферты</a></li>
-                        <li><a href="doc/doc-list.html">Учредительные документы</a></li>
+                        <li><a href="details-accounting.html">Реквизиты</a></li>
+                        <li><a href="oferta.docx" target="_blank">Договор оферты</a></li>
+                        <li><a href="doc-list.html">Учредительные документы</a></li>
                     </ul>
                 </li>
             </ul>
+            <!--            
+            <ul class="breadscrumbs">
+                <li><a class="active" href="../actions.html">Документы</a></li>
+                <li>&gt;</li>
+                <li>Учредительные документы</li>
+            </ul>
+            -->
+        </div>
+        <a href="../index.html" class="top-right-link"></a>
+        <div class="contact">
+            <span class="contact-title">ОПЛАТА С ПОМОЩЬЮ МОБИЛЬНОГО ТЕЛЕФОНА</span>
+            <p><b>Вы можете внести пожертвование прямо сейчас.</b> Отправьте SMS-сообщение на номер <b>3443</b> со словом <b>ОЧАГ</b> через пробел укажите цифрами сумму пожертвования.</p>
+            <p>Например: <b>Очаг 200</b></p>
+            <p>В этом случае Вы пожертвуете 200 рублей. Если отправите просто слово <b>ОЧАГ</b> без указания суммы, то с Вашего телефона спишется 100 рублей.
+                <br> Вам придет sms с просьбой подтвердить благотворительный платеж с указанием суммы. Только после подтверждения спишутся средства с вашего лицевого счета.
+            </p>
+            <p>Чтобы Ваша поддержка была регулярной:
+                <br> отправьте SMS на короткий номер <b>3443</b> с текстом <b>ОЧАГ 200 ПОДПИСКА</b>. Вам ежемесячно будет приходить SMS-напоминание с просьбой подтвердить указанный платеж.
+                <br> Чтобы отписаться от регулярного пожертвования:
+                <br> отправьте SMS на короткий номер <b>3443</b> с текстом <b>ОЧАГ СТОП</b>.
+            </p>
+            <p>Допустимый размер пожертвования — от 10 до 5 000 рублей.
+                <br> Стоимость отправки SMS на номер 3443 – бесплатно.
+                <br> Комиссия с абонента оператора сотовой связи - 0%.
+                <br> Услуга доступна для абонентов МТС, Билайн, Мегафон, Теле2.
+            </p>
+            <p><b>Техническая поддержка сервиса осуществляется компанией <a class="sms-support" href="http://info.gmmobile.ru/" title="Компания Gmmobile.ru">GmMobile.ru</a></b></p>
+            <hr>
+            <p><b>Для получения подробной информации нажмите на логотип оператора сотовой связи:</b></p>
+            <ul class="mobile-phone-operator-oferta">
+                <li>
+                    <a href="http://moscow.megafon.ru/popups/oferta_m_payment.html" title="Мегафон ознакомиться с договором оферты"></a>
+                </li>
+                <li>
+                    <a href="https://pay.mts.ru/webportal/terms-account" title="МТС ознакомиться с договором оферты"></a>
+                </li>
+                <li>
+                    <a href="http://moskva.beeline.ru/customers/products/mobile/services/details/mobilnyy-platezh/" title="Билайн ознакомиться с договором оферты"></a>
+                </li>
+                <li>
+                    <a href="https://market.tele2.ru/help.html#offer" title="TELE2 ознакомиться с договором оферты"></a>
+                </li>
+            </ul>
 
-            <p class="slogan">Дети не должны жить в детдоме,
-                <br>они хотят остаться со своей мамой.
-                <br>Позвольте их мечтам сбываться!</p>
-            <a href="doc/details-accounting.html" class="help">Помочь сейчас</a>
-        </div>
-        <div class="middle-left-column">
-            <span class="date">Май 2015г.</span>
-            <span class="column-text">Официальная регистрация фонда</span>
-            <span class="num-1">156</span>
-            <span class="column-text">Общее число благополучателей за<br>1 год работы</span>
-            <span class="num-2">52</span>
-            <span class="column-text">семьи получили помощь</span>
-            <a href="doc/details-accounting.html" class="support-us">Поддержать нас</a>
-        </div>
-        <!--        
-        <div class="comment">
-            <span class="comment-title">Отзывы</span>
-            <div class="stub"></div>
-            <p class="comment-text">Я обратилась в фонд, когда пьяный муж выгнал меня с детьми на улицу...
-                <br>Сейчас мои дети живут со мной, старший пошел в школу, я
-                <br>трудоустроена. Огромное спасибо!</p>
-            <span class="comment-subscribe">Наталья Т.</span>
-        </div>-->
-        <div class="comment">
-            <span class="comment-title">Вы можете внести пожертвование прямо сейчас!</span>
-            <p class="comment-text">Отправьте SMS-сообщение на номер <b>3443</b> со словом <b>ОЧАГ</b> через пробел укажите цифрами сумму пожертвования. Например: <b>Очаг 200</b></p>
-            <p class="comment-text">В этом случае Вы пожертвуете 200 рублей. Если отправите просто слово <b>ОЧАГ</b> без указания суммы, то с Вашего телефона спишется 100 рублей.</p>
-            <a href="doc/sms.html" class="comment-link">Подробнее</a>
-        </div>
-        <div class="flow-money clearfix">
-            <span class="comment-title">На что пойдут деньги</span>
-            <div class="item1">
-                <a class="heart" href="#"></a>
-                <span>Мамин дом</span>
-            </div>
-            <div class="item2">
-                <a class="note" href="#"></a>
-                <span>Дистанционный патронаж</span>
-            </div>
-            <div class="item3">
-                <a class="team" href="#"></a>
-                <span>Оплата труда специалистов</span>
-            </div>
-        </div>
-
-        <div class="footer clearfix">
-            <span class="promo-text">Как я еще могу помочь?</span>
-            <div class="item4">
-                <a href="#" class="volonter"></a>
-                <span>Стать волонтером</span>
-            </div>
-            <div class="item5">
-                <a href="#" class="shirt"></a>
-                <span>Принести вещи</span>
-            </div>
-            <div class="item6">
-                <a href="#" class="rupor"></a>
-                <span>Рассказать о нас</span>
-            </div>
-
-            <div class="copyright">
-                <span class="copyright-text">Copyright &#169; 2016. Все права защищены</span>
-                <br>
-                <span>Дизайн разработан:genniaF_illustration</span>
-            </div>
             <div class="social-btn">
                 <a class="vk" href="https://vk.com/blagiyedela" title="Наша страница в ВК">
                     <svg id="Capa_1" style="enable-background:new 0 0 112.196 112.196;" version="1.1" viewBox="0 0 112.196 112.196" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -125,11 +101,11 @@
                     </svg>
                 </a>
             </div>
+            <span class="copyright-text">Copyright &#169; 2016. Все права защищены</span>
         </div>
 
-
     </div>
-    <script src="js/site-script.js"></script>
+    <script src="../js/site-script.js"></script>
 </body>
 
 </html>
