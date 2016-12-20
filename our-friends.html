@@ -3,16 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Сайт благотворительного фонда Благие дела">
-    <meta name="keywords" content="благотворительный фонд казань, благие дела, оказать помощь, благотворительность">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Благие дела благотворительный фонд</title>
+    <title>Благие дела наши друзья</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-    <div class="container clearfix">
+    <div class="container-inner clearfix">
         <div class="top-left-column">
             <h1 class="index-title">Благотворительный фонд <q>Благие дела</q></h1>
             <ul class="index-menu">
@@ -20,7 +18,7 @@
                 <li><a href="#">Новости</a></li>
                 <li><a href="#">Пресса<br> о нас</a></li>
                 <li><a href="actions.html">Проекты<br>и акции</a></li>
-                <li><a href="our-friends.html">Наши<br>друзья</a></li>
+                <li><a class="active" href="#">Наши<br>друзья</a></li>
                 <li><a href="our-history.html">Истории<br>&nbsp;людей</a></li>
                 <li><a href="contact.html">Контакты</a></li>
                 <li onmouseover="showElem('document-submenu')" onmouseout="hiddenElem('document-submenu')"><a href="#">Документы</a>
@@ -31,71 +29,28 @@
                     </ul>
                 </li>
             </ul>
-
-            <p class="slogan">Дети не должны жить в детдоме,
-                <br>они хотят остаться со своей мамой.
-                <br>Позвольте их мечтам сбываться!</p>
-            <a href="doc/details-accounting.html" class="help">Помочь сейчас</a>
         </div>
-        <div class="middle-left-column">
-            <span class="date">Май 2015г.</span>
-            <span class="column-text">Официальная регистрация фонда</span>
-            <span class="num-1">156</span>
-            <span class="column-text">Общее число благополучателей за<br>1 год работы</span>
-            <span class="num-2">52</span>
-            <span class="column-text">семьи получили помощь</span>
-            <a href="doc/details-accounting.html" class="support-us">Поддержать нас</a>
-        </div>
-        <!--        
-        <div class="comment">
-            <span class="comment-title">Отзывы</span>
-            <div class="stub"></div>
-            <p class="comment-text">Я обратилась в фонд, когда пьяный муж выгнал меня с детьми на улицу...
-                <br>Сейчас мои дети живут со мной, старший пошел в школу, я
-                <br>трудоустроена. Огромное спасибо!</p>
-            <span class="comment-subscribe">Наталья Т.</span>
-        </div>-->
-        <div class="comment">
-            <span class="comment-title">Вы можете внести пожертвование прямо сейчас!</span>
-            <p class="comment-text">Отправьте SMS-сообщение на номер <b>3443</b> со словом <b>ОЧАГ</b> через пробел укажите цифрами сумму пожертвования. Например: <b>Очаг 200</b></p>
-            <p class="comment-text">В этом случае Вы пожертвуете 200 рублей. Если отправите просто слово <b>ОЧАГ</b> без указания суммы, то с Вашего телефона спишется 100 рублей.</p>
-            <a href="doc/sms.html" class="comment-link">Подробнее</a>
-        </div>
-        <div class="flow-money clearfix">
-            <span class="comment-title">На что пойдут деньги</span>
-            <div class="item1">
-                <a class="heart" href="#"></a>
-                <span>Мамин дом</span>
-            </div>
-            <div class="item2">
-                <a class="note" href="#"></a>
-                <span>Дистанционный патронаж</span>
-            </div>
-            <div class="item3">
-                <a class="team" href="#"></a>
-                <span>Оплата труда специалистов</span>
-            </div>
-        </div>
-
-        <div class="footer clearfix">
-            <span class="promo-text">Как я еще могу помочь?</span>
-            <div class="item4">
-                <a href="#" class="volonter"></a>
-                <span>Стать волонтером</span>
-            </div>
-            <div class="item5">
-                <a href="#" class="shirt"></a>
-                <span>Принести вещи</span>
-            </div>
-            <div class="item6">
-                <a href="#" class="rupor"></a>
-                <span>Рассказать о нас</span>
-            </div>
-
-            <div class="copyright">
-                <span class="copyright-text">Copyright &#169; 2016. Все права защищены</span>
-                <br>
-                <span>Дизайн разработан:genniaF_illustration</span>
+        <a href="index.html" class="top-right-link" title="Перейти на главную страницу сайта"></a>
+        <div class="contact">
+            <span class="contact-title">Благодарим за то, что вы с нами!</span>
+            <span class="contact-title">Генеральный информационный партнёр Фонда:</span>
+            <a href="http://trt-tv.ru/" class="our-friends-gtrk" title="Перейти на сайт ГТРК «Татарстан»"><img src="img/logo-gtrk.jpg" alt="логотип ГТРК «Татарстан»" width="620" height="305">ГТРК «Татарстан»</a>
+            <span class="contact-title">Наши благотворители:</span>
+            <a href="http://darsad.ru/" class="our-friends dar" title="Перейти на сайт детского сада «Дар»"><img src="img/logo-dar.png" alt="логотип Частный детский сад «Дар»" width="366" height="152">Частный детский сад «Дар»</a>
+            <a href="https://kazan.metro-cc.ru/" class="our-friends metro" title="Перейти на сайт компании «Metro C&C»"><img src="img/logo-metro.png" alt="логотип компании «Metro C&C»" width="366" height="153">Сеть гипермаркетов «Metro C&#38;C»
+                <br> в Казани</a>
+            <a href="http://prproekt-kazan.ru/" class="our-friends spring" title="Перейти на сайт компании «Пружинный проект»"><img src="img/logo-spring.jpg" alt="логотип Производственная компания «Пружинный проект»" width="366" height="124">Производственная компания «Пружинный проект»</a>
+            <a href="http://www.audex.ru/" class="our-friends audex" title="Перейти на сайт компании «Аудекс»"><img src="img/logo-audex.png" alt="логотип Аудиторско-консалтинговай компании «Аудекс»" width="280" height="80">Аудиторско-консалтинговая
+                <br>компания «Аудекс»</a>
+            <a href="https://tatarstan.hh.ru/" class="our-friends hh" title="Перейти на сайт Группы компаний «НН»"><img src="img/logo-hh.png" alt="логотип Группа компаний «НН»" width="200" height="123">Группа компаний «НН»</a>
+            <span class="contact-title">Наши добрые ангелы:</span>
+            <p><b>Дизайнер-художник <a class="our-site-author" href="https://vk.com/id6748234" title="Перейти на страницу пользователя">Женя Фатыхова</a></b> - именно она разработала внешний облик нашего сайта до мельчайших деталей.</p>
+            <p><b>Веб-разработчик <a class="our-site-author" href="https://vk.com/id137415232" title="Перейти на страницу пользователя">Вячеслав Кузнецов</a></b> - именно он вдохнул жизнь в наш сайт, ставший полноценным веб-ресурсом: качественным, информативным и удобным.</p>
+            <span class="contact-title">Дизайнеры-волонтёры:</span>
+            <div class="our-site-assistant">
+                <a class="our-site-author" href="https://vk.com/id19768960" title="Перейти на страницу пользователя">Алинка Шакирова,</a>
+                <a class="our-site-author" href="https://vk.com/id4384275" title="Перейти на страницу пользователя">Элина Коба,</a>
+                <a class="our-site-author" href="https://vk.com/id7008430" title="Перейти на страницу пользователя">Екатерина Кулиева</a>
             </div>
             <div class="social-btn">
                 <a class="vk" href="https://vk.com/blagiyedela" title="Наша страница в ВК">
@@ -125,8 +80,8 @@
                     </svg>
                 </a>
             </div>
+            <span class="copyright-text">Copyright &#169; 2016. Все права защищены</span>
         </div>
-
 
     </div>
     <script src="js/site-script.js"></script>

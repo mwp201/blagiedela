@@ -1085,3 +1085,77 @@ hr {
 .mobile-phone-operator-oferta li:last-child a {
     background: url(../img/logo-tele2.png) 50% 50% no-repeat;
 }
+
+
+/*------------------*/
+
+
+/*--- our-friends.html ---*/
+
+.our-friends-gtrk {
+    display: block;
+    width: 620px;
+    margin: 50px auto;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    color: #593f1f;
+}
+
+.our-friends-gtrk:hover {
+    text-decoration: underline;
+}
+
+.our-friends {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    color: #593f1f;
+}
+
+.our-friends:hover {
+    text-decoration: underline;
+}
+
+.audex {
+    width: 285px;
+    margin-left: 325px;
+    padding-top: 20px;
+}
+
+.audex img {
+    margin-bottom: 24px;
+}
+
+.hh {
+    width: 235px;
+    margin-right: 0;
+}
+
+.dar,
+.spring,
+.metro {
+    width: 366px;
+}
+
+.spring img {
+    margin-bottom: 27px;
+}
+
+.our-site-author {
+    text-decoration: none;
+    color: #593f1f;
+}
+
+.our-site-author:hover {
+    text-decoration: underline;
+}
+
+.our-site-assistant {
+    width: 415px;
+    margin: 0 auto 50px auto;
+}
