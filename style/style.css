@@ -999,7 +999,7 @@ p {
 /*--- doc-list.html ---*/
 
 .doc-menu {
-    margin: 0 0 70px 238px;
+    margin: 0 0 100px 244px;
     padding: 0;
     list-style: none;
 }
@@ -1123,7 +1123,7 @@ hr {
 
 .audex {
     width: 285px;
-    margin-left: 325px;
+    margin-left: 205px;
     padding-top: 20px;
 }
 
@@ -1140,6 +1140,10 @@ hr {
 .spring,
 .metro {
     width: 366px;
+}
+
+.link {
+    width: 152px;
 }
 
 .spring img {

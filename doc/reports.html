@@ -3,14 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Контакты благотворительного фонда Благие дела">
-    <meta name="keywords" content="благотворительный фонд казань контакты, благие дела телефон, благие дела адрес, помощь в трудной жизненной ситуации">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Благие дела контакты</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.maskedinput-1.2.2.js"></script>
+    <title>Благие дела список отчетов</title>
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
@@ -18,49 +14,35 @@
         <div class="top-left-column">
             <h1 class="index-title">Благотворительный фонд <q>Благие дела</q></h1>
             <ul class="index-menu">
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="press.html">Пресса<br>&nbsp;о нас</a></li>
-                <li><a href="actions.html">Проекты<br>и акции</a></li>
-                <li><a href="our-friends.html">Наши<br>друзья</a></li>
-                <li><a href="our-history.html">Истории<br>&nbsp;людей</a></li>
-                <li><a class="active" href="#">Контакты</a></li>
-                <li onmouseover="showElem('document-submenu')" onmouseout="hiddenElem('document-submenu')"><a href="#">Документы</a>
+                <li><a href="../about.html">О нас</a></li>
+                <li><a href="../news.html">Новости</a></li>
+                <li><a href="../press.html">Пресса<br> о нас</a></li>
+                <li><a href="../actions.html">Проекты<br>и акции</a></li>
+                <li><a href="../our-friends.html">Наши<br>друзья</a></li>
+                <li><a href="../our-history.html">Истории<br>&nbsp;людей</a></li>
+                <li><a href="../contact.html">Контакты</a></li>
+                <li onmouseover="showElem('document-submenu')" onmouseout="hiddenElem('document-submenu')"><a class="active" href="#">Документы</a>
                     <ul class="document-submenu" id="document-submenu">
-                        <li><a href="doc/details-accounting.html">Реквизиты</a></li>
-                        <li><a href="doc/reports.html">Отчеты</a></li>
-                        <li><a href="doc/doc-list.html">Учредительные документы</a></li>
+                        <li><a href="details-accounting.html">Реквизиты</a></li>
+                        <li><a href="#">Отчеты</a></li>
+                        <li><a href="doc-list.html">Учредительные документы</a></li>
                     </ul>
                 </li>
             </ul>
+            <ul class="breadscrumbs">
+                <li><a class="active" href="../actions.html">Документы</a></li>
+                <li>&gt;</li>
+                <li>Отчеты</li>
+            </ul>
         </div>
-        <a href="index.html" class="top-right-link" title="Перейти на главную страницу сайта"></a>
+        <a href="../index.html" class="top-right-link" title="Перейти на главную страницу сайта"></a>
         <div class="contact">
-            <span class="contact-title">Наши контакты:</span>
-            <div class="our-contact">
-                <span>Адрес: 420012, г. Казань, ул. Щапова, 26</span>
-                <span>Телефон: +7 (937) 575-75-76</span>
-                <span>Часы работы: Пн-Пт: с 9:30 до 18:30</span>
-            </div>
-            <div class="map" id="yandex-map"></div>
-            <span class="contact-title">Есть вопросы? Напишите нам!</span>
-            <form action="send_mail.php" class="send-mail" method="post">
-                <div class="clearfix">
-                    <div class="field-wrapper">
-                        <label for="user_name">Ваше имя</label>
-                        <input type="text" id="user_name" name="user_name" placeholder="Представьтесь, пожалуйста!" required>
-                        <label for="user_email">Ваша почта</label>
-                        <input type="text" id="user_email" name="user_email" placeholder="Для отправки ответа" required>
-                        <label for="user_phone">Ваш телефон</label>
-                        <input type="text" id="user_phone" name="user_phone" placeholder="Для связи с Вами">
-                    </div>
-                    <div class="text-area-wrapper">
-                        <label for="user_message">Ваше сообщение</label>
-                        <textarea name="user_message" id="user_message" cols="30" rows="10" placeholder="В произвольной форме" required></textarea>
-                    </div>
-                </div>
-                <input type="submit" name="submit" value="Отправить">
-            </form>
+            <span class="contact-title">Отчетные документы благотворительного фонда <q>Благие дела</q></span>
+            <ul class="doc-menu">
+                <li><a href="protocol1.pdf" target="_blank">Протокол №1</a></li>
+                <li><a href="details-3443-1_12-12_12-2016.xls" target="_blank">Детализация по номеру 3443 с 1.12 по 12.12 2016 г.</a></li>
+                <li><a href="report-9_months-2016.docx" target="_blank">Отчёт за 9 месяцев 2016 года</a></li>
+            </ul>
 
             <div class="social-btn">
                 <a class="vk" href="https://vk.com/blagiyedela" title="Наша страница в ВК">
@@ -94,16 +76,7 @@
         </div>
 
     </div>
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=U-TmAbr-ENmAFPjnzXXH_HUjX2nr12wZ&amp;width=960&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false;id=yandex-map">
-    </script>
-    <script>
-        //маска для телефона
-        jQuery(function ($) {
-            $.mask.definitions['~'] = '[+-]';
-            $('#user_phone').mask('+7 (999) 999-99-99');
-        });
-    </script>
-    <script src="js/site-script.js"></script>
+    <script src="../js/site-script.js"></script>
 </body>
 
 </html>
