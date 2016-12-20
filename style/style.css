@@ -1092,11 +1092,20 @@ hr {
 
 /*--- our-friends.html ---*/
 
+.our-friends-title {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    /*40px*/
+    color: #492e0c;
+    text-align: center;
+    font-weight: bold;
+}
+
 .our-friends-gtrk {
     display: block;
-    width: 620px;
+    width: 465px;
     margin: 50px auto;
-    font-size: 1.25em;
     text-align: center;
     text-decoration: none;
     color: #593f1f;
@@ -1111,7 +1120,6 @@ hr {
     vertical-align: top;
     margin-right: 50px;
     margin-bottom: 50px;
-    font-size: 1.25em;
     text-align: center;
     text-decoration: none;
     color: #593f1f;
@@ -1122,28 +1130,32 @@ hr {
 }
 
 .audex {
-    width: 285px;
-    margin-left: 205px;
+    width: 235px;
+    margin-left: 410px;
     padding-top: 20px;
 }
 
 .audex img {
-    margin-bottom: 24px;
+    margin-bottom: 13px;
 }
 
 .hh {
-    width: 235px;
+    width: 185px;
     margin-right: 0;
 }
 
 .dar,
 .spring,
 .metro {
-    width: 366px;
+    width: 274px;
+}
+
+.dar {
+    margin-left: 50px;
 }
 
 .link {
-    width: 152px;
+    width: 114px;
 }
 
 .spring img {
