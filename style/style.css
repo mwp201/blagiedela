@@ -1180,7 +1180,7 @@ hr {
 /*------------------*/
 
 
-/*--- press.html ---*/
+/*--- press-more-siraeva.html ---*/
 
 .press-date {
     display: block;
@@ -1191,4 +1191,30 @@ hr {
 iframe {
     display: block;
     margin: 50px auto;
+}
+
+
+/*------------------*/
+
+
+/*--- press.html ---*/
+
+.press-list {
+    margin: 0 0 70px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.press-title {
+    display: block;
+    margin-top: 40px;
+    font-family: 'Droidserif-Italic';
+    font-size: 2em;
+    font-style: italic;
+    color: #492e0c;
+    text-decoration: none;
+}
+
+.press-title:hover {
+    color: #fff;
 }
